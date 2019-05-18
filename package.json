@@ -1,0 +1,33 @@
+{
+  "name": "calendar_traveloka",
+  "version": "1.0.0",
+  "description": "Org Calendar Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ignore logs -L server.js"
+  },
+  "author": "",
+  "license": "ISC",
+    "dependencies": {
+    "async": "^1.5.2",
+    "circular-json": "^0.5.4",
+    "dotenv": "^2.0.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.12.0",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7",
+    "query-string": "^4.3.1",
+    "node-restify-swagger": "^0.1.8",
+    "node-restify-validation": "^0.1.0",
+    "querystring": "^0.2.0",
+    "request": "^2.72.0",
+    "require": "^2.4.20",
+    "require-dir": "^0.3.0",
+    "require-directory": "^2.1.1",
+    "response-time": "^2.3.1",
+    "restify": "^4.0.0",
+    "restify-cors-middleware": "0.0.8",
+    "restify-errors": "github:pntripathi9417/errors"
+  }
+}
